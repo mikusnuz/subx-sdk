@@ -10,7 +10,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@subx-dev/sdk": "workspace:*"
+    "@subx-dev/sdk": "^0.2.0"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
