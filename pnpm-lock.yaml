@@ -11,8 +11,8 @@ importers:
   packages/react-native:
     dependencies:
       '@subx-dev/sdk':
-        specifier: workspace:*
-        version: link:../sdk
+        specifier: ^0.2.0
+        version: 0.2.0
     devDependencies:
       '@types/react':
         specifier: ^19.0.0
@@ -591,6 +591,9 @@ packages:
 
   '@sinonjs/fake-timers@10.3.0':
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
+
+  '@subx-dev/sdk@0.2.0':
+    resolution: {integrity: sha512-S++RkVtMs0tMCkLiyCgF7GtdnVCZmq1EjKHGTQuWtLF7FohlD2x2RIWBLbi7lN/pTrQNpiA/orDTvt2PmJaEzw==}
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -2168,6 +2171,8 @@ snapshots:
   '@sinonjs/fake-timers@10.3.0':
     dependencies:
       '@sinonjs/commons': 3.0.1
+
+  '@subx-dev/sdk@0.2.0': {}
 
   '@types/babel__core@7.20.5':
     dependencies:

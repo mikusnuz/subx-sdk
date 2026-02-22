@@ -14,7 +14,7 @@ export class SubXClient {
 
   constructor(config: SubXConfig) {
     this.apiKey = config.apiKey;
-    this.baseUrl = (config.baseUrl || 'https://api.subx.io').replace(/\/$/, '');
+    this.baseUrl = (config.baseUrl || 'https://api.subx.dev').replace(/\/$/, '');
   }
 
   // Offerings

@@ -56,7 +56,7 @@ await client.trackEvent({
 | Option | Type | Required | Description |
 |--------|------|----------|-------------|
 | `apiKey` | `string` | Yes | SubX API key |
-| `baseUrl` | `string` | No | API base URL (default: `https://api.subx.io`) |
+| `baseUrl` | `string` | No | API base URL (default: `https://api.subx.dev`) |
 
 ### Methods
 

@@ -140,7 +140,7 @@ await restore();
 | Prop | Type | Required | Description |
 |------|------|----------|-------------|
 | `apiKey` | `string` | Yes | SubX public API key |
-| `baseUrl` | `string` | No | SubX API base URL (default: `https://api.subx.io`) |
+| `baseUrl` | `string` | No | SubX API base URL (default: `https://api.subx.dev`) |
 | `entitlementIds` | `string[]` | No | Entitlement IDs to check for `isPro` |
 
 ### useSubX()

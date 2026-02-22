@@ -56,7 +56,7 @@ await client.trackEvent({
 | 옵션 | 타입 | 필수 | 설명 |
 |--------|------|----------|-------------|
 | `apiKey` | `string` | Yes | SubX API 키 |
-| `baseUrl` | `string` | No | API 베이스 URL (기본값: `https://api.subx.io`) |
+| `baseUrl` | `string` | No | API 베이스 URL (기본값: `https://api.subx.dev`) |
 
 ### 메서드
 

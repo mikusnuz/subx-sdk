@@ -140,7 +140,7 @@ await restore();
 | 프로퍼티 | 타입 | 필수 | 설명 |
 |---------|------|------|------|
 | `apiKey` | `string` | 예 | SubX 공개 API 키 |
-| `baseUrl` | `string` | 아니오 | SubX API 기본 URL (기본값: `https://api.subx.io`) |
+| `baseUrl` | `string` | 아니오 | SubX API 기본 URL (기본값: `https://api.subx.dev`) |
 | `entitlementIds` | `string[]` | 아니오 | `isPro` 확인에 사용할 권한 ID 목록 |
 
 ### useSubX()

@@ -1,6 +1,6 @@
 {
   "name": "@subx-dev/sdk",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "SubX JavaScript SDK for subscription management",
   "type": "module",
   "main": "./dist/index.cjs",
