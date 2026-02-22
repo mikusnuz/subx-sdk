@@ -1,0 +1,11 @@
+{
+  "name": "subx-sdk",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "clean": "pnpm -r exec rm -rf dist"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

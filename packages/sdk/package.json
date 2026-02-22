@@ -1,0 +1,44 @@
+{
+  "name": "@subx-dev/sdk",
+  "version": "0.2.0",
+  "description": "SubX JavaScript SDK for subscription management",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikusnuz/subx-sdk.git",
+    "directory": "packages/sdk"
+  },
+  "homepage": "https://github.com/mikusnuz/subx-sdk/tree/main/packages/sdk",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "subx",
+    "subscription",
+    "in-app-purchase",
+    "iap",
+    "sdk"
+  ],
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.9.3"
+  }
+}
